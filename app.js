@@ -15,9 +15,14 @@ const app = express()
 mongooseLogs(db)
 
 app.disable('x-powered-by')
-app.use(helmet(), cors(), express.json(), morgan('dev'))
-app.use(limiter)
-app.use(routes)
+app.use(
+  helmet(),
+  cors(),
+  express.json(),
+  morgan('dev'),
+  limiter,
+  routes
+)
 
 app.listen(port, host, () => {
   console.log('Servidor iniciado na Porta:', port)
