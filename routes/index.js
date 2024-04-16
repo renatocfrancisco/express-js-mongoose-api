@@ -5,7 +5,7 @@ const user = require('./user')
 const router = express.Router()
 
 router.get('/', (_req, res) => {
-  res.send('portal-agl-api')
+  res.send('root')
 })
 
 router.use('/user', user)
