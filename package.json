@@ -1,5 +1,5 @@
 {
-  "name": "portal-agl-api",
+  "name": "express-js-mongoose-api",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "renatocfrancisco",
   "license": "ISC",
   "dependencies": {
     "argon2": "^0.40.1",
